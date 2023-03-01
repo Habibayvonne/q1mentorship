@@ -1,0 +1,62 @@
+body {
+    background-color: #f4f5f8;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    /*border: 2px solid rgb(18, 50, 155);*/
+    margin-top: 20%;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  form {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  form button {
+    font-size: 40px;
+  }
+  
+  form button,   
+  li button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    color: rgb(4, 4, 156)
+    ;
+  }
+  
+  form input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 16px 16px;
+    border-color: black;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 70%;
+    padding: 8px;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .checked {
+    text-decoration: line-through;
+    color: rgba(10, 200, 180, 20);
+  }
