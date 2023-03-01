@@ -33,7 +33,7 @@ class InputTodo extends Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <input type="text" placeholder="Add Todo..." name="title" value={title} onChange={this.onChange} />
-        <button type="submit">
+        <button type="submit" id='submit'>
           <FaPlusCircle />
         </button>
       </form>

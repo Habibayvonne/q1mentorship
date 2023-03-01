@@ -3,7 +3,7 @@ import React from 'react';
 export default class Header extends React.PureComponent {
   render() {
     return (
-      <h1>My To Do List</h1>
+      <h1> ToDo List</h1>
     );
   }
 }   

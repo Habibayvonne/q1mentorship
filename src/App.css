@@ -23,7 +23,9 @@ body {
   }
   
   form button {
-    font-size: 40px;
+    font-size: 16px;
+    
+
   }
   
   form button,   
@@ -60,3 +62,12 @@ body {
     text-decoration: line-through;
     color: rgba(10, 200, 180, 20);
   }
+  #header{
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #submit{
+    max-width: 60%; 
+    border: none;
+
+   }
